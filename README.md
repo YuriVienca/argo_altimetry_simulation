@@ -21,7 +21,7 @@ O código realiza:
 
 - `B5903118_argo.nc` - Dados Argo (perfil de temperatura, salinidade, pressão, coordenadas, tempo).
 - `AtlSW_CMEMS.nc` - Dados de altimetria (altura da superfície do mar, latitude, longitude, tempo).
-- `simulacao_argo_altimetria.py` - Código principal da análise e geração dos gráficos.
+- `argo_AASM.py` - Código principal da análise e geração dos gráficos.
 - `figuras_analise_argo_altimetro.pdf` - Resultado gerado pelo script com os gráficos.
 
 ---
@@ -31,7 +31,7 @@ O código realiza:
 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/seuusuario/seuprojeto.git
+git clone https://github.com/YuriVienca/argo_altimetry_simulation
 cd seuprojeto
 ```
 
@@ -44,7 +44,7 @@ pip install -r requirements.txt
 3. Execute o script:
 
 ```bash
-python simulacao_argo_altimetria.py
+python argo_AASM.py
 ```
 
 4. Confira o arquivo PDF `figuras_analise_argo_altimetro.pdf` com as figuras geradas.
@@ -63,22 +63,10 @@ Todas estão listadas no `requirements.txt`.
 
 ---
 
-## 🤝 Contribuições
-
-Contribuições são bem-vindas! Faça um fork, crie uma branch e envie um pull request.
-
----
-
-## 📄 Licença
-
-MIT License © 2025 Seu Nome
-
----
-
 ## 📬 Contato
 
-Para dúvidas, envie e-mail para: seuemail@exemplo.com
+Para dúvidas, envie e-mail para: yurivienca@gmail.com
 
----
+Autor: Yuri Encarnação
 
-**Divirta-se explorando a oceanografia com Python! 🐬🌐**
+
